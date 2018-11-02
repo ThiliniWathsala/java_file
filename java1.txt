@@ -1,3 +1,6 @@
+// this is the first programm that is push to the git
+
+
 
  * @author Thilini
  */
@@ -28,6 +31,7 @@ public class JavaApplication5 {
         int j=i++;
         
         System.out.println("increament value of j:"+j+" and i :" + i);
+
         
         i=i++;
         System.out.println("VALUE OF I="+ i);
