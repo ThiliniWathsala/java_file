@@ -1,0 +1,58 @@
+
+ * @author Thilini
+ */
+public class JavaApplication5 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        
+        byte b=8;
+       // b=b*2.5; this is didnt work.becouse 2.5 is double value.
+       b*=2.5; // but this is wrok.beacouse the type of the answer is first one.
+       //answer = 20
+        System.out.println(b);
+        
+        //BINARY LITERALS
+        
+        int a=5;
+        int x=0B1000;
+        System.out.println(a);
+        System.out.println(x);
+        
+        //PRE increament and POST increament
+        
+        int i=5;
+        
+        int j=i++;
+        
+        System.out.println("increament value of j:"+j+" and i :" + i);
+        
+        i=i++;
+        System.out.println("VALUE OF I="+ i);
+        
+        System.out.println("count from 1 to 5");//pre increament
+        for(int v=1;v<=5;++v){
+            System.out.println(v);
+        }
+        
+        //BITWISE AND , OR OPERATORS
+        
+        int add1=5;
+        int add2=3;
+        int andop=add1&add2;
+        int orop=add1|add2;
+        System.out.println("ANSWER OF USING AND OPERATORS: "+ andop);
+         System.out.println("ANSWER OF USING OR OPERATORS: "+ orop);
+        // TODO code application logic here
+        
+        System.out.println(" ");
+        //LEFT SHIFT AND RIGHT SHIFT OPERATORS
+        
+        int f=8; //binary value of it =1000
+        int h=f<<2; //binary value of it=100000.00
+        int k=f>>2; //binry value of it=1000.00=>10
+        System.out.println("after left shift answer is =" +h);
+        System.out.println("after right shift answer is= "+k);
+        
